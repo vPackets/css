@@ -1,0 +1,90 @@
+/* Main body styling */
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #2a2a2a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Code snippet styling */
+pre, code {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+}
+
+pre {
+    border-left: 3px solid #2a2a2a;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #d63384;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Diagrams and images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Blockquote styling for notes and quotes */
+blockquote {
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-left: 5px solid #2a2a2a;
+    color: #555;
+}
+
+/* Ensure tables are responsive */
+@media screen and (max-width: 600px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
